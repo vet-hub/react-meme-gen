@@ -4,6 +4,9 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+body {
+	background-color: #707070;
+}
 
 .App {
 	display: block;
@@ -26,23 +29,23 @@
 	max-width: 500px;
  }
 
-
- .memeText0 {
+.texts {
 	position: absolute;
-	top: 8px;
-	left: 16px;
+	padding: 0 0.5rem;
 	font-size: 2rem;
 	color: wheat;
-	text-shadow: 2px 2px 0 black;
+	background-color: black;
+	opacity: 0.6;
+}
+
+ .memeText0 {
+	top: 8px;
+	right: 16px;
  }
 
  .memeText1 {
-	position: absolute;
 	bottom: 8px;
-	left: 16px;
-	font-size: 2rem;
-	color: wheat;
-	text-shadow: 2px 2px 0 black;
+	right: 16px;
  }
 
 
